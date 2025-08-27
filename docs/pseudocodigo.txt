@@ -1,0 +1,22 @@
+Inicio
+  Definir limite_inferior = 1
+  Definir limite_superior = 100
+  intentos = 0
+
+  Repetir mientras limite_inferior <= limite_superior:
+    intento = (limite_inferior + limite_superior) // 2
+    Mostrar "¿Es {intento} tu número?"
+    Pedir respuesta al usuario ("mayor", "menor", "igual")
+
+    Si respuesta == "igual":
+        Mostrar "🎉 ¡Número encontrado en {intentos} intentos!"
+        Terminar bucle
+    Sino Si respuesta == "mayor":
+        limite_inferior = intento + 1
+    Sino Si respuesta == "menor":
+        limite_superior = intento - 1
+    Sino:
+        Mostrar "Respuesta no válida. Usa solo: mayor, menor o igual"
+  Fin Repetir
+
+Fin
