@@ -1,5 +1,5 @@
 Autores: Jhonatan Macancela
-Fecha: [Pon la fecha]
+Fecha: 26 de agosto del 202
 Asignatura / Curso: Logica de programacion 
 
 Objetivo del Programa
